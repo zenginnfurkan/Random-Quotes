@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+body {
+    background-color: orange;
+}
+
+#box {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.content {
+    background-color: white;
+    height: auto;
+    border-radius: 15px 0 15px 0;
+    padding: 50px;
+    -webkit-box-shadow: 8px 8px 24px -12px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px -12px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px -12px rgba(66, 68, 90, 1);
+}
+
+.button-group {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.btn-light:hover {
+    color: white;
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+#text {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+#author {
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+}
